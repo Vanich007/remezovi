@@ -6,15 +6,6 @@ import ImageUploader from "quill-image-uploader";
 import { Quill } from "react-quill";
 Quill.register("modules/imageUploader", ImageUploader);
 
-const fullToolbarOptions = [
-    [{ header: [1, 2, 3, false] }],
-    ["bold", "italic"],
-    ["clean"],
-    ["image"]
-];
-
-
-
 const modules = {
     toolbar: [
         [{ header: '1' }, { header: '2' }, { font: [] }],
